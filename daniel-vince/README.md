@@ -77,26 +77,42 @@ _Your repository must include:_
 _Your README.md must include:_
 
 ```md
-# Project Name
+# Project Lab 03
 
-**Author**: Your Name Goes Here
+**Author**: Daniel / Vince
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This application will show / hide all articles based on the author / category chosen. It will also truncate and show the paragraphs based on "read on"
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Download the source code, start up live server, and you're good to go.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+Using extensive jquery, javascript and a smidgen of CSS this app could easily be attached to a database and allow use of (eessentially) a cms.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+Author: Daniel Frey <dann.frey@me.com>
+Date:   Thu Aug 16 13:38:43 2018 -0700 - added readme
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+Author: Daniel Frey <dann.frey@me.com>
+Date:   Thu Aug 16 13:36:03 2018 -0700 - finished
+
+Author: Daniel Frey <dann.frey@me.com>
+Date:   Thu Aug 16 13:31:27 2018 -0700 - final TODO
+
+Author: Vince Masten <vmasten@me.com>
+Date:   Thu Aug 16 13:12:22 2018 -0700 - mostly done
+
+Author: Vince Masten <vmasten@me.com>
+Date:   Thu Aug 16 11:23:52 2018 -0700 - added category filter
+
+Author: Daniel Frey <dann.frey@me.com>
+Date:   Thu Aug 16 11:12:56 2018 -0700 - added hide/show views
+
+Author: Daniel Frey <dann.frey@me.com>
+Date:   Thu Aug 16 08:44:41 2018 -0700 - created branch and dir
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+Thank you John, Koko, and Katy. Also a shout out to Jason and Hannah! -->
 ```
