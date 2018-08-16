@@ -41,7 +41,7 @@ articleView.handleAuthorFilter = function() {
       // TODO: If the <select> menu was changed to an option that has a value, we first need to hide all the articles, and then show just the ones that match for the author that was selected.
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
       $('article').hide();
-      $(`article[data-author="${$(this).val()}"]`).show();
+      $(`article[data-author="${$(this).val()}"]`).fadeIn(500);
     } else {
       $('article').show();
       $('article.template').hide();
@@ -63,7 +63,7 @@ articleView.handleCategoryFilter = function() {
       // TODO: If the <select> menu was changed to an option that has a value, we first need to hide all the articles, and then show just the ones that match for the author that was selected.
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
       $('article').hide();
-      $(`article[data-category="${$(this).val()}"]`).show();
+      $(`article[data-category="${$(this).val()}"]`).fadeIn(500);
     } else {
       $('article').show();
       $('article.template').hide();
@@ -80,7 +80,7 @@ articleView.handleMainNav = function() {
 
   $('.tab').on('click', function() {
     $('.tab-content').hide();
-    $(`#${$(this).attr('data-content')}`).show();
+    $(`#${$(this).attr('data-content')}`).fadeIn(500);
   });
 
   // REVIEW: Now trigger a click on the first .tab element, to set up the page.
@@ -96,7 +96,7 @@ articleView.setTeasers = function() {
   $('.read-on').on('click', function(event) {
     event.preventDefault();
     console.log($(this));
-    $(this).prev().find('*:nth-of-type(n+2)').show();
+    $(this).prev().find('*:nth-of-type(n+2)').fadeIn(500);
   })
 };
 
